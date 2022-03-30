@@ -1,35 +1,37 @@
-.logo img {
-  padding: 30px 0;
-  width: 100%;
+*,
+*::before,
+*::after {
+ -webkit-box-sizing:border-box;
+ box-sizing:border-box
 }
-
-.resource-list {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: larger;
-  padding: 10px;
-  text-align: center;
+html {
+ font-family:sans-serif;
+ line-height:1.15;
+ -webkit-text-size-adjust:100%;
+ -webkit-tap-highlight-color:transparent
 }
-
-.resource-list ul {
-    text-align: left;
-    margin: 0 auto;
-    width: 300px;
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+ display:block
 }
-
-.resource-list a {
-  color: black;
-  line-height: 30px;
+body {
+ margin:0;
+ font-family:muli,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+ font-size:1rem;
+ font-weight:500;
+ line-height:2;
+ color:#394285;
+ text-align:left;
+ background-color:#fff
 }
-
-footer {
-  bottom: 10px;
-  font-family: Helvetica, Arial, sans-serif;
-  margin: 0 auto;
-  width: 100%;
-  position: fixed;
-  text-align: center;
-}
-
-footer img {
-    width: 20px;
+[tabindex="-1"]:focus {
+ outline:0!important
 }
